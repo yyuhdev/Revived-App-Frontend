@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from "@/components/Home.vue";
 import News from "@/components/News.vue";
+import Help from "@/components/Help.vue";
 
 
 const routes = [
@@ -10,6 +11,9 @@ const routes = [
     { path: '/news', component: News, meta: {
         title: 'Revived.club - Home'
         }},
+    { path: '/help', component: Help, meta: {
+        title: 'Revived.club - Home'
+        }}
 ];
 
 const router = createRouter({
