@@ -54,6 +54,7 @@ export default {
         </router-link>
         <router-link
             to="/help"
+            @click="menuOpen = false"
             class="flex items-center gap-3 py-[0.875rem] px-4 text-slate-200 no-underline text-base font-medium rounded-lg transition-all duration-200 ease-in-out bg-transparent hover:bg-slate-500/10 hover:text-white hover:pl-5 active:bg-slate-500/15 active:scale-95"
         >
           <i class="fa-solid fa-circle-question text-xl w-6 text-center"></i>
