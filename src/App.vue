@@ -63,7 +63,7 @@ export default {
     </div>
   </transition>
 
-  <router-view></router-view>
+  <router-view @click="menuOpen = false"></router-view>
 </template>
 
 

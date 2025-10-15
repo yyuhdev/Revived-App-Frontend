@@ -6,19 +6,23 @@ export default {
       news: [
         {
           title: "Test wow wow",
-          answer: "test",
+          text: "test",
+          link: "",
         },
         {
           title: "Test wow wow 2",
-          answer: "test 2",
+          text: "test 2",
+          link: "",
         },
         {
           title: "Test wow wow 3",
           answer: "test 3",
+          link: "",
         },
         {
           title: "Test wow wow 4",
-          answer: "test 4",
+          text: "test 4",
+          link: "",
         },
       ]
     }
@@ -42,7 +46,7 @@ export default {
         </div>
         <div class="min-w-full min-h-[1px] bg-white/10 mt-3 mb-3">
         </div>
-        <p class="text-sm text-slate-400 line-clamp-3">{{ post.answer }}</p>
+        <p class="text-sm text-slate-400 line-clamp-3">{{ post.text }}</p>
       </div>
     </div>
   </main>
